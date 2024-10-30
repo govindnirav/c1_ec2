@@ -45,7 +45,7 @@ def compare(ls1, ls2):
     for i in ls1:
         if i in ls2 and i not in out:
             out.append(i)
-    return out
+    return out # Don't need to sort this because prime list is accending to begin with.
 
 print(compare(pr,rs))
         
