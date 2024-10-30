@@ -1,11 +1,12 @@
 import math
 
-
-def tayex_sin(x):
+def tayex_sin(X):
     """
     Coding each order of the taylor expansion, then summing it up
     """
-    y=x-(x**3/math.factorial(3))+(x**5/math.factorial(5))
-    return y
+    y=X-(X**3/math.factorial(3))+(X**5/math.factorial(5))
+    return round(y,5)
 
-print(tayex_sin(0.1))
+
+x=0.1
+print(f"The value of the fifth-order Taylor series expansion of sin({x}), rounded to 5 decimal places, is: {tayex_sin(x)}")
