@@ -1,2 +1,2 @@
-# c1_rc
-Repository for all my work regarding D400 C3 Research Computing
+# c1_ec2
+Repository for my work regarding D400 C1 Research Computing Example Class 2
