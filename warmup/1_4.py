@@ -1,5 +1,8 @@
 
 def recaman_sq(n):
+    """
+    Redefining the recaman sequence funtion using python
+    """
     out=[]
     x=0
     for i in range (0, n):
