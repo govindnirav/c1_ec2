@@ -18,4 +18,19 @@ def rand_walk(n):
 
 print(rand_walk(10))
 
+## Correction
+
+def random_walk():
+    position = 0
+    while abs(position) < 10:
+        position += 1 if random.randint(0, 1) else -1
+        yield position # Yield is different from return. Remembers thing only 1 then 'deletes'
+
+for p in random_walk():
+    print(p, end = " ")
+
+"""
+Gambler's ruin.
+Fact that a gambler playing a game with negative expecter return will eventually go bankrupt.
+"""
     

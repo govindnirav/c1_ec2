@@ -29,5 +29,6 @@ def main():
     plt.ylabel("Y(t)")
     plt.show()
 
+# __name__ is a var python uses and this line provides a safety check. In case someone imports this file, the main function will not execute this.
 if __name__ == "__main__":
     main()

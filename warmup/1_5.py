@@ -48,4 +48,11 @@ def compare(ls1, ls2):
     return out # Don't need to sort this because prime list is accending to begin with.
 
 print(compare(pr,rs))
+
+## Correction
+
+def compare_1(ls1,ls2):
+    return list(set(ls1) & set(ls2)) # & operator is an abrieviation for the intersection function
+
+print(compare(pr,rs))
         

@@ -7,8 +7,8 @@ class StochasticProcess:
 
     def __init__(self, y0, mu, sigma):
         self.y0 = y0  # Initial value 
-        self.mu = mu  # Expected return 
-        self.sigma = sigma  # Volatility
+        self.mu = mu  # Expected return (Drift coefficient)
+        self.sigma = sigma  # Volatility (Diffusion coefficient)
 
     def simulate(self, T, n, M):
         """
